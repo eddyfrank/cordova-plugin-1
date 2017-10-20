@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-1" version="0.0.1">
+
+    <name>Cordova Test Plugin 1</name>
+
+    <platform name="android">
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:name="com.example.plugin1.ActivityX" />
+        </config-file>
+
+    </platform>
+
+</plugin>
